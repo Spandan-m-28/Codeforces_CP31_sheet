@@ -1,0 +1,1 @@
+{"name":"Local: 22","url":"/home/spandan/Desktop/CF/800/22.Coins.cpp","tests":[{"id":1744609371595,"input":"4\n5 3\n6 1\n7 4\n8 8\n","output":"YES\nYES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spandan/Desktop/CF/800/22.Coins.cpp","group":"local","local":true}

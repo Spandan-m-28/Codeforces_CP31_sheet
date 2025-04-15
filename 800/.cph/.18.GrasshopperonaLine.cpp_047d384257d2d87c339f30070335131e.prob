@@ -1,0 +1,1 @@
+{"name":"Local: 18","url":"/home/spandan/Desktop/CF/800/18.GrasshopperonaLine.cpp","tests":[{"id":1744524340406,"input":"3\n10 2\n10 3\n3 4\n","output":"2\n7 3\n1\n10\n1\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spandan/Desktop/CF/800/18.GrasshopperonaLine.cpp","group":"local","local":true}
