@@ -4,9 +4,16 @@ using namespace std;
 typedef long long ll;
 
 void solve(){
-    ll n,m,i,j;
-    cin >> n >> m >> i >> j;
-    cout << 1 << " " << 1 << " " << n << " " << m << endl;
+    ll n;
+    cin >> n;
+    while(n % 2 == 0){
+        n = n / 2;
+    }
+    if(n > 1){
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
 }
 
 int main(){
