@@ -56,7 +56,10 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
+
+  // This line was added from the second block:
   "editor.formatOnSave": true,
+
   "files.associations": {
     "ostream": "cpp",
     "iostream": "cpp"
