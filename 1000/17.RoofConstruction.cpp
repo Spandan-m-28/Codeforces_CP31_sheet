@@ -5,6 +5,25 @@ typedef long long ll;
 
 void solve(){
     int n;
+    cin >> n;
+    n--;
+    ll msb = log2(n);
+    vector<ll> ans;
+    ll num = pow(2,msb -1);
+    while(num >= 0){
+        ans.push_back(num);
+        num--;
+    }
+    num = pow(2,msb);
+    while(num <= n){
+        ans.push_back(num);
+        num++;
+    }
+
+    for(auto it : ans){
+        cout << it << " ";
+    }
+    cout << endl;
 }
 
 int main(){
