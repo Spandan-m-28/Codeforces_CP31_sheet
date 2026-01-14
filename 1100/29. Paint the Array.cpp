@@ -12,6 +12,10 @@ void solve(){
     for(int i = 0;i < n;i++){
         cin >> arr[i];
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3d8579f3493d398ff9de028dfbdaee07efe52662
 }
 
 int main(){

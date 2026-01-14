@@ -13,7 +13,18 @@ void solve(){
         cin >> arr[i];
     }
 
+<<<<<<< HEAD
     
+=======
+    int Xor = INT_MAX;
+    for(int i = 0;i < n;i++){
+        if(arr[i] != i){
+            Xor = Xor & arr[i];
+        }
+    }
+    
+    cout << Xor << endl;
+>>>>>>> 3d8579f3493d398ff9de028dfbdaee07efe52662
 }
 
 int main(){
